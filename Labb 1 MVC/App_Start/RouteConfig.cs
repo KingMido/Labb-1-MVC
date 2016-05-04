@@ -18,7 +18,7 @@ namespace Labb_1_MVC
                 url: "Laser/{action}/{id}",
                 defaults: new { controller = "Laser", action = "Sabel", id = UrlParameter.Optional }
              );
-
+         
             routes.MapRoute(
                 name: "Life",
                 url: "Life/{action}/{id}",
